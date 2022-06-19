@@ -130,12 +130,13 @@ img {
 
 .page-header {
   background-color: var(--contrast-light-txt-bc);
+
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
@@ -176,6 +177,9 @@ img {
 }
 
 .header-contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--basic-txt-subtitle);
 }
 
@@ -189,13 +193,9 @@ img {
 /* Hero section */
 
 .hero {
+  padding: 200px 0;
   background-color: var(--dark-bc);
   text-align: center;
-}
-
-.hero-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .main-title {
@@ -224,16 +224,20 @@ img {
   color: var(--contrast-light-txt-bc);
   background-color: var(--accent-btn-bc);
   padding: 10px 32px;
+  border-radius: 4px;
 }
 
 .btn-hero:hover,
 .btn-hero:focus {
   background-color: var(--hover-focus-btn-bc);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 /* About section */
+
+.about {
+  padding-bottom: 0;
+}
 
 .about-subtitle {
   font-weight: 700;
@@ -312,6 +316,7 @@ img {
 /* Footer section */
 
 .footer {
+  padding: 60px 0;
   background-color: var(--dark-bc);
 }
 
@@ -321,10 +326,6 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .footer-contact {
   width: 231px;
   font-weight: 400;
@@ -353,9 +354,8 @@ img {
 
 /* Portfolio html */
 
-.portfolio-container {
-  padding-top: 94px;
-  padding-bottom: 37px;
+.portfolio {
+  padding: 94px 0;
 }
 
 .card-btn {
